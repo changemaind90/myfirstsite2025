@@ -1,0 +1,146 @@
+.shop {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  max-width: 1365px;
+  margin: 0 0 80px 90px;
+}
+
+.shop__catalog {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 1362px;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.shop__title {
+  font-family: "RF Dewi Expanded", sans-serif;
+  font-weight: 900;
+  font-size: 31px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.shop__more-container {
+  display: flex;
+  align-items: center;
+  height: 28px;
+  border-bottom: 2px solid #121214;
+}
+
+.shop__more {
+  display: inline;
+  font-family: "RF Dewi Extended", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  color: #000;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+
+.more__items {
+  width: 10px;
+  height: 10px;
+}
+
+.shop__top {
+  display: flex;
+  justify-content: space-between;
+  height: 42px;
+}
+
+.shop__fav {
+  transform: translate(281px, -300px);
+  color: #121214;
+}
+
+.shop__card {
+  box-sizing: border-box;
+  width: 318px;
+  height: 369px;
+  padding: 0;
+  margin: 0;
+}
+
+.shop__card-title {
+  font-family: "RF Dewi Extended", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.shop__card-price {
+  font-family: "RF Dewi Extended", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+}
+
+.swiper-slide {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.swiper-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 245px;
+  gap: 45px;
+  margin-left: 534px;
+}
+
+.slider-arrow {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+}
+
+.slider-arrow img {
+  width: 12px;
+  height: 6px;
+}
+
+.slider-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 9px;
+}
+
+.slider-pagination span{
+  margin-right: 45px;
+}
+
+.slider-bullet {
+  width: 6px;
+  height: 6px;
+  background-color: #121214; 
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.slider-bullet.active {
+  scale: 1.4;
+  background-color: #000; 
+}
