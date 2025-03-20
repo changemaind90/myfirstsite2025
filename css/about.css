@@ -1,11 +1,20 @@
 .about {
   width: 1920px;
   height: 895px;
+  margin-top: 392px;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+  width:1360px;
 }
 
 .about__desc {
   width: 812px;
-  height: 270px;
+  height: 383px;
+  margin-bottom: 120px;
+  margin-left: 130px;
 }
 
 .about__title {
@@ -30,5 +39,8 @@
   border-radius: 5px;
   padding-top: 40px;
   padding-left: 53px;
-  color: #fff;
+  margin-right: 130px;
+  color: #000;
+  margin-bottom: 98px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.04);
 }
