@@ -38,8 +38,8 @@
 .about__menu {
   /* display: flex;
   flex-direction: column; */
-  width: 415;
-  height: 426;
+  max-width: 415px;
+  max-height: 426px;
   border-radius: 5px;
   color: #000;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.04);
@@ -48,10 +48,12 @@
 .about__menu-item,
 .about_menu-item_inner {
   display: flex;
+  gap: 20px;
 }
 
 .about_menu-item_inner {
   flex-direction: column;
+  gap: 5px;
 }
 
 .about__menu-title {
