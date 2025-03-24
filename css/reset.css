@@ -26,6 +26,7 @@ a:hover,
 button:hover,
 img:hover {
   fill: chartreuse;
+  color: chartreuse;
   transform: scale(1.5);
   transition: 0.3s ease;
 }
