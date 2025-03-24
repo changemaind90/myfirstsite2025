@@ -2,14 +2,14 @@
   width: 1920px;
   height: 603px;
   background-image: url('../img/xwear-about.svg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-  .about__inner {
-    display: flex;
-  }
+.about__inner {
+  display: flex;
+}
 
 .about__desc {
   width: 812px;
@@ -37,8 +37,6 @@
 }
 
 .about__menu {
-  /* display: flex;
-  flex-direction: column; */
   max-width: 415px;
   max-height: 426px;
   border-radius: 5px;
@@ -72,7 +70,8 @@
 }
 
 .about__menu-title {
-  font-family: "RF Dewi Expanded", sans-serif;;
+  font-family: "RF Dewi Expanded", sans-serif;
+  ;
   font-weight: 900;
   font-size: 13px;
   line-height: 1.69;
@@ -84,7 +83,6 @@
 .about__menu-title span {
   position: relative;
   display: inline;
-  /* border-bottom: 3px solid #00BDFF; */
 }
 
 .about__menu-title span::after {
