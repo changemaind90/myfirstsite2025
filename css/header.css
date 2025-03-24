@@ -1,47 +1,48 @@
 header {
-  width: 1920px;
+  max-width: 100%;
   height: 100px;
   margin-bottom: 49px;
   background-color: #000;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 1920px;
-}
-
 .header__inner {
   display: flex;
-  width: 100%;
-  height: 100%;
-  margin: 0 280px 0 280px; 
+  justify-content: space-between;
+  max-width: 1320px;
+  max-height: 100%;
+  margin: 0 auto;
 }
 
 .header__logo {
   height: 35px;
   padding-top: 33px;
-  margin: 0 123px 0 0;
 }
 
 .header__menu-list {
-  width: 795px;
   display: flex;
   justify-content: space-between;
+  gap: 43px;
+  padding-top: 41px;
+}
+
+.header__menu-link {
+  display: inline-flex;
+  align-items: center;
   font-family: "RF Dewi Extended", sans-serif;
   font-weight: 600;
   line-height: 1;
   font-size: 14px;
   color: #fff;
-  padding-top: 41px;
-  padding-left: 0;
-  margin: 0 120px 0 0;
 }
 
+.header__menu-arrow {
+  margin-left: 5px;
+  margin-top: 1px;
+}
+ 
 .header__actions {
   display: flex;
   justify-content: space-between;
-  width: 238px;
   padding-top: 40px;
   margin: 0;
 }
@@ -49,33 +50,13 @@ header {
 .header__actions-list {
   display: flex;
   padding: 0;
-  margin: 0;
+  margin-right: 32px;
   gap: 32px;
 }
 
 .header__cart-cost {
   display: flex;
   justify-content: space-between;
-}
-
-/*HEADER__ACTIONS*/
-.header__search {
-  width: 18px;
-  height: 18px;
-}
-.header__fav {
-  width: 19px;
-  height: 18px;
-}
-.header__account {
-  width: 13px;
-  height: 18px;
-}
-
-.header__cart-svg {
-  width: 17px;
-  height: 20px;
-  margin: 0;
 }
 
 .header__cart-price {
@@ -105,8 +86,4 @@ header {
   padding: 0;
   margin-top: 1px;
   margin-left: 5px;
-}
-
-.header__cart-item {
-  margin: 0;
 }
