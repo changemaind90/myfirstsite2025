@@ -11,6 +11,8 @@
     />
     <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+    <script defer src="./js/hero-slider.js"></script>
+
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/hero.css" />
@@ -107,35 +109,145 @@
 
     <main class="main">
 
-        <section class="hero">
+        <!-- <section class="hero">
 
-          <div class="hero__inner">
+          <div class="hero__inner section-1 active">
             
             <h1 class="hero__title">Широкий ассортимент одежды</h1>
             <p class="hero__text">
               Одежда от известные брендов у нас в каталоге.<br>
               Только качественные вещи.
             </p>
+
             <div class="hero__btn-container">
               <button class="hero__btn" type="submit">Перейти в каталог</button>
               <img src="img/arrow_btn.svg" alt="arrow__btn" class="hero__arrow" />
             </div>
+
             <ul class="hero__slider">
-              <li> <a href="#">
-                <svg class="herp__slider-btn" width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <li> <button class="prev-btn">
+                <svg class="herp__slider-btn_svg" width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="33.5" cy="33.5" r="33.5" fill="white"/>
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M30.2929 33.7071C29.9024 33.3166 29.9024 32.6834 30.2929 32.2929L36.2929 26.2929C36.6834 25.9024 37.3166 25.9024 37.7071 26.2929C38.0976 26.6834 38.0976 27.3166 37.7071 27.7071L32.4142 33L37.7071 38.2929C38.0976 38.6834 38.0976 39.3166 37.7071 39.7071C37.3166 40.0976 36.6834 40.0976 36.2929 39.7071L30.2929 33.7071Z" fill="#121214"/>
-                  </svg></a>                
+                  </svg></button>            
               </li>
-              <li> <a href="#">
-                <svg class="herp__slider-btn" width="67" height="67" viewBox="0 0 67 67" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+
+              <li> <button class="next-btn">
+                <svg class="herp__slider-btn_svg" width="67" height="67" viewBox="0 0 67 67" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="33.5" cy="33.5" r="33.5" fill="white"/>
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M36.7071 33.7071C37.0976 33.3166 37.0976 32.6834 36.7071 32.2929L30.7071 26.2929C30.3166 25.9024 29.6834 25.9024 29.2929 26.2929C28.9024 26.6834 28.9024 27.3166 29.2929 27.7071L34.5858 33L29.2929 38.2929C28.9024 38.6834 28.9024 39.3166 29.2929 39.7071C29.6834 40.0976 30.3166 40.0976 30.7071 39.7071L36.7071 33.7071Z" fill="#121214"/>
-                  </svg></a>            
+                  </svg></button>            
+              </li>
+            </ul>
+          </div>
+
+          
+
+          <div class="hero__inner section-2">
+            
+            <h1 class="hero__title">Вторая секция для слайдера</h1>
+            <p class="hero__text">
+              Одежда от известные брендов у нас в каталоге.<br>
+              Только качественные вещи.
+            </p>
+
+            <div class="hero__btn-container">
+              <button class="hero__btn" type="submit">Перейти в каталог</button>
+              <img src="img/arrow_btn.svg" alt="arrow__btn" class="hero__arrow" />
+            </div>
+
+            <ul class="hero__slider">
+              <li> <button class="prev-btn">
+                <svg class="herp__slider-btn_svg" width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="33.5" cy="33.5" r="33.5" fill="white"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M30.2929 33.7071C29.9024 33.3166 29.9024 32.6834 30.2929 32.2929L36.2929 26.2929C36.6834 25.9024 37.3166 25.9024 37.7071 26.2929C38.0976 26.6834 38.0976 27.3166 37.7071 27.7071L32.4142 33L37.7071 38.2929C38.0976 38.6834 38.0976 39.3166 37.7071 39.7071C37.3166 40.0976 36.6834 40.0976 36.2929 39.7071L30.2929 33.7071Z" fill="#121214"/>
+                  </svg></button>            
+              </li>
+
+              <li> <button class="next-btn">
+                <svg class="herp__slider-btn_svg" width="67" height="67" viewBox="0 0 67 67" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="33.5" cy="33.5" r="33.5" fill="white"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M36.7071 33.7071C37.0976 33.3166 37.0976 32.6834 36.7071 32.2929L30.7071 26.2929C30.3166 25.9024 29.6834 25.9024 29.2929 26.2929C28.9024 26.6834 28.9024 27.3166 29.2929 27.7071L34.5858 33L29.2929 38.2929C28.9024 38.6834 28.9024 39.3166 29.2929 39.7071C29.6834 40.0976 30.3166 40.0976 30.7071 39.7071L36.7071 33.7071Z" fill="#121214"/>
+                  </svg></button>            
+              </li>
+            </ul>
+          </div>
+        </section> --> <!-- ОРИГИНЛ СДЕЛАЛ САМ-->
+
+
+<!--СЕКЦИЯ ТЕСТ СЛАЙДЕРА!!! -->
+
+
+        <section class="hero">
+          <!-- Первая секция -->
+          <div class="hero__inner section-1 active">
+            <h1 class="hero__title">Широкий ассортимент одежды</h1>
+            <p class="hero__text">
+              Одежда от известные брендов у нас в каталоге.<br>
+              Только качественные вещи.
+            </p>
+        
+            <div class="hero__btn-container">
+              <button class="hero__btn" type="submit">Перейти в каталог</button>
+              <img src="img/arrow_btn.svg" alt="arrow__btn" class="hero__arrow" />
+            </div>
+        
+            <ul class="hero__slider">
+              <li>
+                <button class="prev-btn">
+                  <svg class="herp__slider-btn_svg" width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="33.5" cy="33.5" r="33.5" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M30.2929 33.7071C29.9024 33.3166 29.9024 32.6834 30.2929 32.2929L36.2929 26.2929C36.6834 25.9024 37.3166 25.9024 37.7071 26.2929C38.0976 26.6834 38.0976 27.3166 37.7071 27.7071L32.4142 33L37.7071 38.2929C38.0976 38.6834 38.0976 39.3166 37.7071 39.7071C37.3166 40.0976 36.6834 40.0976 36.2929 39.7071L30.2929 33.7071Z" fill="#121214"/>
+                  </svg>
+                </button>            
+              </li>
+              <li>
+                <button class="next-btn">
+                  <svg class="herp__slider-btn_svg" width="67" height="67" viewBox="0 0 67 67" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="33.5" cy="33.5" r="33.5" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M36.7071 33.7071C37.0976 33.3166 37.0976 32.6834 36.7071 32.2929L30.7071 26.2929C30.3166 25.9024 29.6834 25.9024 29.2929 26.2929C28.9024 26.6834 28.9024 27.3166 29.2929 27.7071L34.5858 33L29.2929 38.2929C28.9024 38.6834 28.9024 39.3166 29.2929 39.7071C29.6834 40.0976 30.3166 40.0976 30.7071 39.7071L36.7071 33.7071Z" fill="#121214"/>
+                  </svg>
+                </button>            
+              </li>
+            </ul>
+          </div>
+        
+          <!-- Вторая секция -->
+          <div class="hero__inner section-2">
+            <h1 class="hero__title">Вторая секция для слайдера</h1>
+            <p class="hero__text">
+              Одежда от известные брендов у нас в каталоге.<br>
+              Только качественные вещи.
+            </p>
+        
+            <div class="hero__btn-container">
+              <button class="hero__btn" type="submit">Перейти в каталог</button>
+              <img src="img/arrow_btn.svg" alt="arrow__btn" class="hero__arrow" />
+            </div>
+        
+            <ul class="hero__slider">
+              <li>
+                <button class="prev-btn">
+                  <svg class="herp__slider-btn_svg" width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="33.5" cy="33.5" r="33.5" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M30.2929 33.7071C29.9024 33.3166 29.9024 32.6834 30.2929 32.2929L36.2929 26.2929C36.6834 25.9024 37.3166 25.9024 37.7071 26.2929C38.0976 26.6834 38.0976 27.3166 37.7071 27.7071L32.4142 33L37.7071 38.2929C38.0976 38.6834 38.0976 39.3166 37.7071 39.7071C37.3166 40.0976 36.6834 40.0976 36.2929 39.7071L30.2929 33.7071Z" fill="#121214"/>
+                  </svg>
+                </button>            
+              </li>
+              <li>
+                <button class="next-btn">
+                  <svg class="herp__slider-btn_svg" width="67" height="67" viewBox="0 0 67 67" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="33.5" cy="33.5" r="33.5" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M36.7071 33.7071C37.0976 33.3166 37.0976 32.6834 36.7071 32.2929L30.7071 26.2929C30.3166 25.9024 29.6834 25.9024 29.2929 26.2929C28.9024 26.6834 28.9024 27.3166 29.2929 27.7071L34.5858 33L29.2929 38.2929C28.9024 38.6834 28.9024 39.3166 29.2929 39.7071C29.6834 40.0976 30.3166 40.0976 30.7071 39.7071L36.7071 33.7071Z" fill="#121214"/>
+                  </svg>
+                </button>            
               </li>
             </ul>
           </div>
         </section>
+
+
+
 
       <section class="shop">              <!-- каталог товаров-->
 
