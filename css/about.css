@@ -1,6 +1,6 @@
 .about {
-  width: 1920px;
-  height: 603px;
+  max-width: 1920px;
+  max-height: 603px;
   background-image: url('../img/xwear-about.svg');
   background-repeat: no-repeat;
   background-size: cover;

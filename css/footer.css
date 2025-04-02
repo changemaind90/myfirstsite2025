@@ -1,5 +1,5 @@
 footer {
-  width: 1920px;
+  max-width: 1920px;
   height: 371px;
   padding: 45px 280px 0 286px;
   background-color: #121214;

@@ -1,10 +1,10 @@
-.blog {
+/* .blog {
   display: flex;
   flex-direction: column;
   max-width: 1361px;
   max-height: 599px;
   margin: 0 0 80px 67px;
-}
+} */
 
 .blog__top {
   display: flex;
@@ -41,21 +41,20 @@
   margin-right: 5px;
 }
 
-.blog__catalog {
+/* .blog__catalog {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: space-between;
   gap: 30px;
   margin-bottom: 60px;
-}
+} */
 
-.blog__card {
+/* .blog__card {
   display: flex;
   flex-direction: column;
   width: 433px;
   padding: 0;
   margin: 0;
-}
+} */
 
 .blog__link {
   display: flex;
@@ -109,24 +108,10 @@
 }
 
 .blog__more  span{
-  position: relative;
-  display: inline;
-}
-
-.blog__more  span::after{
-  content: '';
-  display: inline-block;
-  width: 100%;
-  height: 3px;
-  background-color: #00BDFF;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  vertical-align: baseline;
+  border-bottom: 5px solid #00BDFF;
 }
 
 .blog__date {
-  display: inline;
   font-family: "RF Dewi Extended", sans-serif;;
   font-weight: 400;
   font-size: 11px;
@@ -136,5 +121,46 @@
   text-transform: uppercase;
   padding: 0;
   margin: 0;
+} 
+
+/*SLIDER*/
+.blog {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  max-width: 1366px;
+  margin: 80px 0 118px 0;
+  overflow: hidden;
+  height: 599px;
 }
- 
+
+.blog__catalog-container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.blog__catalog {
+  flex: 0 0 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  transition: transform 0.5s ease;
+  min-width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  will-change: transform;
+  backface-visibility: hidden;
+  margin-bottom: 67px;
+}
+
+.blog__card {
+  flex: 0 0 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
+  box-sizing: border-box;
+}
