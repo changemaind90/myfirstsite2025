@@ -21,16 +21,6 @@ ul {
   list-style: none;
 }
 
-/* svg:hover path,
-a:hover,
-button:hover,
-img:hover {
-  fill: chartreuse;
-  color: chartreuse;
-  transform: scale(1.2);
-  transition: 0.3s ease;
-} */
-
 button {
   cursor: pointer;
 }

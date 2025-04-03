@@ -10,10 +10,20 @@ main {
   width: 100%;
   height: 631px;
   transition: background-image 0.5s ease-in-out;
-  /* background-image: url('../img/main-img.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+}
+
+/* a:hover, */
+button:hover, svg {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: visible;
+  color: #49D0FF;
+  fill:  #49D0FF;
+}
+
+button:hover {
+  color: #49D0FF;
 }
 
 .hero.bg-slide-1 {

@@ -33,13 +33,40 @@ header {
   line-height: 1;
   font-size: 14px;
   color: #fff;
+
+}
+
+.header__menu-link:hover {
+  transition: background-color 0.3s;
+  &:hover {
+    color: #49D0FF;
+  }
+}
+
+.header__actions-item svg,
+.header__cart-item svg {
+  transition: fill 0.3s;
+  &:hover {
+    stroke: #49D0FF;
+    scale: 1.2;
+    overflow: visible;
+    border-radius: 50%;
+  }
+}
+
+a:hover,
+button:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: visible;
 }
 
 .header__menu-arrow {
   margin-left: 5px;
   margin-top: 1px;
 }
- 
+
 .header__actions {
   display: flex;
   justify-content: space-between;
@@ -70,10 +97,10 @@ header {
 }
 
 .header__cart-quantity {
-  display: inline-flex; 
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 18px; 
+  width: 18px;
   height: 18px;
   background-color: #49D0FF;
   border-radius: 50%;
@@ -81,7 +108,7 @@ header {
   font-family: "CeraPro-Regular", sans-serif;
   font-weight: 700;
   font-size: 13px;
-  color: #fff; 
+  color: #fff;
   font-weight: bold;
   padding: 0;
   margin-top: 1px;

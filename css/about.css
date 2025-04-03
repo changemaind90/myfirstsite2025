@@ -1,7 +1,7 @@
 .about {
   max-width: 1920px;
   max-height: 603px;
-  background-image: url('../img/xwear-about.svg');
+  background-image: url('../img/bg-about-katya.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -44,6 +44,7 @@
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.04);
   margin-right: 141px;
   margin-top: 79px;
+  background-color: #fff;
 }
 
 .about__menu-item,
