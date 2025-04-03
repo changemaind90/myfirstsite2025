@@ -174,3 +174,12 @@ footer {
   text-decoration: underline;
   text-decoration-style: solid;
 }
+
+.footer__catalog-link:hover,
+.footer__catalog-list_item:hover {
+  transition: color 0.3s ease-in-out;
+  &:hover {
+    color: #49D0FF;
+    scale: 1.1;
+  }
+}

@@ -1,6 +1,7 @@
 .about {
   max-width: 1920px;
-  max-height: 603px;
+  max-height: 895px;
+  height: 100%;
   background-image: url('../img/bg-about-katya.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,11 +10,12 @@
 
 .about__inner {
   display: flex;
+  height: 100%;
 }
 
 .about__desc {
-  width: 812px;
-  height: 383px;
+  max-width: 812px;
+  max-height: 383px;
   margin-left: 130px;
   margin-right: 133px;
   margin-top: 100px;
@@ -107,8 +109,10 @@
 }
 
 .about__ask {
-  width: 85px;
-  height: 85px;
+  max-width: 85px;
+  max-height: 85px;
+  width: 100%;
+  height: 100%;
   margin-top: 200px;
   padding: 0;
 }

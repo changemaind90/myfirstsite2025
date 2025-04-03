@@ -12,18 +12,14 @@ main {
   transition: background-image 0.5s ease-in-out;
 }
 
-/* a:hover, */
-button:hover, svg {
+.herp__slider-btn_svg:hover svg,
+.hero__btn:hover {
   transform: scale(1.1);
-  transition: 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: 0.5s ease;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
   overflow: visible;
   color: #49D0FF;
   fill:  #49D0FF;
-}
-
-button:hover {
-  color: #49D0FF;
 }
 
 .hero.bg-slide-1 {
@@ -96,10 +92,24 @@ button:hover {
   gap: 15px;
 }
 
-.hero__slider-btn:active {
-  color: #F0F2F7;
+/*КНОПКИ СЛАЙДЕР ХОВЕРЫ*/
+.hero__slider button {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  background: none;
+  border: none;
+  padding: 0;
 }
 
+/* Общие стили SVG */
+.hero__slider button .herp__slider-btn_svg circle {
+  fill: #FFFFFF;
+  transition: fill 0.5s ease;
+}
+
+.hero__slider button:hover .herp__slider-btn_svg circle {
+  fill: #F0F2F7;
+}
 /* Стили для слайдера */ /*СДЕЛАНО ПРИ ПОМОЩИ DEEPSEEK!!!*/
 
 .hero {

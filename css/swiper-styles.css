@@ -28,7 +28,7 @@
 }
  
 .slider-controls {
-  padding: 0 90px; /* Повторяем отступ как у родителя */
+  padding: 0 90px;
   box-sizing: border-box;
 }
 

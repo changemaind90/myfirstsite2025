@@ -140,9 +140,4 @@
   flex: 0 0 calc(33.333% - 20px);
   max-width: calc(33.333% - 20px);
   box-sizing: border-box;
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    overflow: visible;
-  }
 }

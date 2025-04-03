@@ -40,26 +40,20 @@ header {
   transition: background-color 0.3s;
   &:hover {
     color: #49D0FF;
+    transition: color 0.9s ease-in-out;
   }
 }
 
 .header__actions-item svg,
 .header__cart-item svg {
-  transition: fill 0.3s;
+  transition: fill 0.5s;
   &:hover {
+    transform:  0.7s ease;
     stroke: #49D0FF;
-    scale: 1.2;
+    scale: 1.1;
     overflow: visible;
     border-radius: 50%;
   }
-}
-
-a:hover,
-button:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  overflow: visible;
 }
 
 .header__menu-arrow {
