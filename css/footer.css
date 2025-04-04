@@ -12,13 +12,15 @@ footer {
   padding: 0;
 }
 
-.footer__catalog {
+.footer__catalog,
+.footer__info-list {
   display: flex;
   flex-direction: column;
 }
 
 .footer__catalog-list,
 .footer__contacts-menu,
+.footer__info-link,
 .footer__news-text {
   font-family: "RF Dewi Extended", sans-serif;
   font-weight: 400;
@@ -31,6 +33,7 @@ footer {
 
 .footer__catalog-list_title,
 .footer__contacts-title,
+.footer__info-list_title,
 .footer__news-title {
   font-family: "RF Dewi Expanded", sans-serif;
   font-weight: 900;
@@ -45,12 +48,25 @@ footer {
   color: #DCDCE0;
 }
 
+.footer__catalog-list {
+  margin-bottom: 58px;
+}
+
+.footer__info-list {
+  margin-bottom: 38px;
+}
+
 .footer__contacts-menu,
 .footer__catalog-list,
-.footer__news-list {
-  margin: 0;
+.footer__news-list,
+.footer__info-list {
   padding: 0;
   gap: 9px;
+}
+
+.footer__logo-svg {
+  width: 99px;
+  height:41px;
 }
 
 .footer__contacts-mes_title {
@@ -175,8 +191,7 @@ footer {
   text-decoration-style: solid;
 }
 
-.footer__catalog-link:hover,
-.footer__catalog-list_item:hover {
+.footer__catalog-link:hover  {
   transition: color 0.3s ease-in-out;
   &:hover {
     color: #49D0FF;
