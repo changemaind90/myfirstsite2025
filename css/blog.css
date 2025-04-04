@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   height: 42px;
-  margin-bottom: 33px;
+  margin-bottom: 33px;  
 }
 
 .blog__title {
@@ -107,7 +107,7 @@
   position: relative;
   width: 100%;
   max-width: 1366px;
-  margin: 80px 0 118px 0;
+  margin: 80px 0 118px 190px;
   overflow: hidden;
   height: 599px;
 }

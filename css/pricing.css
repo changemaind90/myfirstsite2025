@@ -11,6 +11,8 @@
     #0ddbf8 97.53%
   );
   display: flex;
+  margin-left: 190px;
+  z-index: 10;
 }
 
 .pricing__bg {
