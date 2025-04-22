@@ -1,0 +1,200 @@
+footer {
+  max-width: 1920px;
+  height: 371px;
+  padding: 45px 280px 0 286px;
+  background-color: #121214;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__catalog,
+.footer__info-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__catalog-list,
+.footer__contacts-menu,
+.footer__info-link,
+.footer__news-text {
+  font-family: "RF Dewi Extended", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #DCDCE0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__catalog-list_title,
+.footer__contacts-title,
+.footer__info-list_title,
+.footer__news-title {
+  font-family: "RF Dewi Expanded", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.footer__catalog-link {
+  color: #DCDCE0;
+}
+
+.footer__catalog-list {
+  margin-bottom: 58px;
+}
+
+.footer__info-list {
+  margin-bottom: 38px;
+}
+
+.footer__contacts-menu,
+.footer__catalog-list,
+.footer__news-list,
+.footer__info-list {
+  padding: 0;
+  gap: 9px;
+}
+
+.footer__logo-svg {
+  width: 99px;
+  height:41px;
+}
+
+.footer__contacts-mes_title {
+  font-family: "RF Dewi Expanded", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1.6;
+  margin: 0 0 9px 0;
+  text-transform: uppercase;
+}
+
+.footer__contacts-email {
+  font-family: "RF Dewi Extended", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #DCDCE0;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;  
+}
+
+.footer__contacts-tel {
+  font-family: "RF Dewi Extended", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0%;
+}
+
+.footer__contacts-mes_text {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: "RF Dewi Expanded", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.footer__contacts-mes_container {
+  display: flex;
+  gap: 9px;
+}
+
+.footer__contacts-mes_tg,
+.footer__contacts-mes_w {
+  width: 30px;
+  height: 30px;
+}
+
+.footer__news-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__news-text {
+  font-family: "RF Dewi Extended", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.86;
+  color: #DCDCE0;
+  margin-bottom: 9px;
+}
+
+.footer__news-email {
+  width: 268px;
+  height: 36px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer__news-email::placeholder {
+  font-family: "RF Dewi Extended", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 2.15;
+  letter-spacing: 0%;
+}
+
+.footer__news-btn {
+  display: flex;
+  width: 268px;
+  height: 36px;
+  margin-bottom: 15px;
+}
+
+.footer__news-email_svg {
+  margin-left: -29px;
+}
+
+.footer__news-desc {
+  width: 274px;
+  font-family: "RF Dewi Extended", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height:1.5;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 51px;
+}
+
+.footer__news-politic {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__news-link {
+  color: #707076;
+  font-family: "RF Dewi Extended", sans-serif; 
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+.footer__catalog-link:hover  {
+  transition: color 0.3s ease-in-out;
+  &:hover {
+    color: #49D0FF;
+    scale: 1.1;
+  }
+}

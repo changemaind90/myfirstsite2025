@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .shop__catalog-container {
+    max-width: 667px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .shop__catalog-container {
+    max-width: 318px;
+  }
+}

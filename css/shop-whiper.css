@@ -1,0 +1,124 @@
+.shop {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  max-width: 1365px;
+  margin: 0 0 80px 280px;
+  overflow: hidden;
+}
+
+.shop__catalog-container,
+.shop__catalog-container .clothes-slider,
+.shop__catalog-container .accessories-slider {
+  display: flex;
+  width: 100%;
+  /* overflow: hidden; */
+  /* position: relative; */
+  /* height: 369px; */
+}
+
+.shop__catalog {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  transition: transform 0.5s ease;
+  /* flex: 0 0 100%;
+  width: 100%;
+  min-width: 0;
+  position: absolute;
+  top: 0;
+  left: 0; */
+  box-sizing: border-box;
+  will-change: transform;
+  /* backface-visibility: hidden; */
+}
+
+.shop__title {
+  font-family: "RF Dewi Expanded", sans-serif;
+  font-weight: 900;
+  font-size: 31px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.shop__more-container {
+  display: flex;
+  align-items: center;
+  height: 28px;
+  border-bottom: 2px solid #121214;
+}
+
+.shop__more {
+  display: inline;
+  font-family: "RF Dewi Extended", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  color: #000;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+
+.more__items {
+  width: 10px;
+  height: 10px;
+}
+
+.shop__top {
+  display: flex;
+  justify-content: space-between;
+  height: 42px;
+}
+
+.shop__fav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  top: 15px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+  cursor: pointer;
+  color: #121214;
+}
+
+.shop__card a {
+  box-sizing: border-box;
+  /* height: 369px;
+  padding: 0;
+  margin: 0;
+  width: 100% !important;
+  flex: 1;
+  min-width: 0;
+  flex: 0 0 calc(25% - 30px);
+  max-width: calc(25% - 30px); */
+  box-sizing: border-box;
+}
+
+.shop__card {
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.shop__card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.shop__card-title {
+  font-family: "RF Dewi Extended", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.shop__card-price {
+  font-family: "RF Dewi Extended", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3C3C3C;
+  margin: 0;
+}
